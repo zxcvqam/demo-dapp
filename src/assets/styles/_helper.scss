@@ -1,0 +1,125 @@
+@import "./library";
+
+hr {
+  border-color: #ffffff40;
+}
+
+.img-responsive {
+  max-width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right; 
+}
+
+.text-primary {
+  color: $primary-color;
+}
+
+.text-secondary {
+  color: $secondary-color;
+}
+
+.text-danger {
+  color: $danger-color;
+}
+
+.text-success {
+  color: $success-color;
+}
+
+.text-grey {
+  color: $text-grey;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.error-text {
+  color: $danger-color;
+  width: 100%;
+  font-size: 14px;
+  font-style: italic;
+
+  &.error-bold {
+    font-weight: 600;
+  }
+}
+
+// displays
+.d-flex {
+  display: flex;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-space-between {
+  justify-content: space-between;
+}
+
+.justify-content-right {
+  justify-content: right;
+}
+
+// colors 
+.bg-color-primary {
+  background-color: $primary-color !important;
+}
+
+.bg-color-secondary {
+  background-color: $secondary-color !important;
+}
+
+.bg-color-success {
+  background-color: $success-color !important;
+}
+
+.bg-color-danger {
+  background-color: $danger-color !important;
+}
+
+// general
+.page-title {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+// cursor
+.cursor-pointer{
+  cursor: pointer;
+}
+
+.MuiRadio-colorSecondary.Mui-checked {
+  color: #005ca9 !important;
+}
+
+.text-jpgppl {
+  font-family: 'Jpgppl';
+  background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(65deg, #a33ed7, #50a3c8 62%, #ffcc70);
+}
+
+.btn-primary {
+  padding: 1rem;
+  border-radius: 6px;
+  background: transparent;
+  color: white;
+  border: 1px solid;
+}
